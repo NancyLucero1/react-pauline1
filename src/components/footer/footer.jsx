@@ -24,7 +24,7 @@ export const Footer = () => {
        
         <p> <FaMapMarkerAlt/>Rosales 256. Ramos Mejía</p>
         <p><FaWhatsapp/>1123857844</p>
-        <p><FaShippingFast/> Free Shipping</p>
+        <p><FaShippingFast/> FreeShipping</p>
     
       </ContacUsStyled >
       <h3>Stay in touch</h3>
@@ -44,8 +44,8 @@ export const Footer = () => {
   
       <div>
     
-<p> Designed in < FaRegHeart/> by Nancy Lucero </p>
-<p> Copyright © 2023- All right reserved</p>
+<p> Designed in < FaRegHeart/> by Nancy </p>
+<p> Copyright © 2023</p>
       </div>
       <div>
       <img src={london} />
