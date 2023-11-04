@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 
 export const FooterContainerStyled = styled.div`
- 
+ border-bottom: 2px solid #E8E8D8 ;
  background: #2B2B1A ;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@ export const FooterContainerStyled = styled.div`
 export const LinksContainerStyled = styled.div`
 
   a{
-font-size:18px;
+font-size:1rem;
 
 
 padding-left: 1rem;
@@ -28,7 +28,11 @@ padding-left: 1rem;
 `
 
 export const SocialMediaStyled = styled.div`
+  align-items: center;
 
+h3{
+  align-items:column;
+}
   justify-content: center;
   align-items: center;
 
@@ -52,10 +56,9 @@ align-items: center;
 
 `
 export const ContacUsStyled = styled.div`
-flex-direction: center;
+flex-direction: column;
   justify-content: center;
-  align-items: center;
- 
+
  width: 55%;
  font-size:20px;
    color:white;

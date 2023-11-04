@@ -2,7 +2,7 @@ import logo from '../../assets/image/logo.png'
 import trolley from '../../assets/image/trolley.png'
 import { motion } from 'framer-motion';
 import React from 'react';
-import { FaHome, FaUser, FaUsers, FaFileSignature,FaFacebook, FaTwitter, FaPinterest, FaInstagram } from 'react-icons/fa';
+import { FaHome, FaUserTie, FaUsers,FaUserPlus ,FaUserEdit, FaTwitter, FaPinterest, FaInstagram } from 'react-icons/fa';
 import {
     HomeContainer,
     LinkContainer,
@@ -39,12 +39,13 @@ export const Navbar = () => {
 
           <UserContainer>
             <SpanStyled>Sign In</SpanStyled>
-            <FaUser />
+            <FaUserTie/>
             <SpanStyled> Sign Up</SpanStyled>
-            <FaFileSignature/>
+            <FaUserPlus/>
             <SpanStyled>About Us</SpanStyled>
             <FaUsers/>
-        
+            <SpanStyled>Contact Us</SpanStyled>
+            <FaUserEdit/>
            
             
           </UserContainer>

@@ -16,7 +16,6 @@ align-items: center;
   z-index: 999;
 
 gap:20px;
- 
 
  
     
@@ -52,7 +51,7 @@ a:first-child{
 
 export const LinkContainer = styled.div`
 font-size: 1.2rem;
-color: ${(props) => (props.home ? "#26F3F3" : "#3E2C14")};
+color: ${(props) => (props.home ? "#26F3F3" : "#464523")};
 
 
 `
@@ -103,6 +102,7 @@ width: 30px;
 height: 30px;
 border-radius: 100px;
 cursor: pointer;
+
 `
 
 export const SpanStyled = styled.span`

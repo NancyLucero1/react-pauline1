@@ -7,11 +7,12 @@ justify-content:center;
 align-items:center;
 flex-direction:column;
 max-width:1300px;
-margin:  15px auto;
+margin:  10px auto;
 @media (max-width: 768px) {
-    padding-top: 30px;
+    padding-top: 20px;
     text-align: center;
-
+     gap:20px;
+     justify-content:center;
 
 }
 
