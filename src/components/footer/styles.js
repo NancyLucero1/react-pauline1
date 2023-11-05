@@ -32,13 +32,16 @@ export const SocialMediaStyled = styled.div`
 
 h3{
   align-items:column;
+  
 }
+
+padding:30px;
+gap:20px;
   justify-content: center;
   align-items: center;
 
    font-size:20px;
    color:white;
- width: 14%;
 
   top: 0;
   display: flex;
@@ -49,8 +52,7 @@ align-items: center;
  @media (max-width:768px) {
     padding-top: 30px;
     text-align: center;
-    width:30%
-    
+   
 }
 
 
@@ -74,4 +76,12 @@ align-items: center;
     width:30%
     
 }
+`
+export const  TitleH3 = styled.div`
+
+border-bottom: 1px solid #0EC7D4 ;
+width:80%;
+
+
+
 `

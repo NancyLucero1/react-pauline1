@@ -7,7 +7,7 @@ export const CategoryWidget = () => {
   return (
  
 <CategoriasWrapper>
-    <h2>Category</h2>
+    <h2> Products Category</h2>
     <CategoriasContainer >
         {
          categories.map((item ) => <CategoryCard key ={item.id} {...item}/>)

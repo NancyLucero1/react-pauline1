@@ -59,8 +59,24 @@ justify-content: space-around;
 width: 40vw;
 
 img{
-  width: 80vw;
+  width: 75vw;
 }
+h1{
+font-size: 3rem;
+margin: 5px 0;
+}
+
+h2{
+font-size: 1.5rem;
+margin: 5px 0;
+}
+p{
+font-size: 1.2rem;
+margin: 5px 0;
+
+}
+
+
 }
 
 

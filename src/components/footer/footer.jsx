@@ -6,6 +6,7 @@ import { LinksContainerStyled } from './styles';
 import { SocialMediaStyled, ContacUsStyled } from './styles';
 import  london from "../../assets/image/london.png"
 import  argentina from "../../assets/image/argentina.png"
+import { TitleH3 } from './styles';
 
 export const Footer = () => {
   return (
@@ -19,7 +20,7 @@ export const Footer = () => {
       
 
       </LinksContainerStyled >
-      <h3>Contact Us</h3>
+      <TitleH3><h3>Stay in touch</h3></TitleH3>
       <ContacUsStyled >
        
         <p> <FaMapMarkerAlt/>Rosales 256. Ramos Mejía</p>
@@ -27,7 +28,7 @@ export const Footer = () => {
         <p><FaShippingFast/> FreeShipping</p>
     
       </ContacUsStyled >
-      <h3>Stay in touch</h3>
+     <TitleH3> <h3>Follow Us</h3></TitleH3>
       <SocialMediaStyled>
        
   
@@ -42,11 +43,10 @@ export const Footer = () => {
 
 
   
-      <div>
-    
-<p> Designed in < FaRegHeart/> by Nancy </p>
-<p> Copyright © 2023</p>
-      </div>
+      
+
+      <p> Designed in < FaRegHeart/> by Nancy </p>
+<p> Copyright © 2023- All  rights reserved</p>
       <div>
       <img src={london} />
       <img src={argentina} />

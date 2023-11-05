@@ -7,6 +7,7 @@ import { ProductWidget } from '../../components/products/product_widget/product_
 import { Footer } from '../../components/footer/footer'
 import { Navbar } from '../../components/navbar/navbar'
 import { HomeLayout } from '../../components/layout/home/home_layout'
+import { FavoriteWidget } from '../../components/favorite_products/favorite_widget/favorite_widget'
 
 export const HomeScreen = () => {
   return (
@@ -17,7 +18,8 @@ export const HomeScreen = () => {
       <HomeLayout>
       <Header/>
       <CategoryWidget ></CategoryWidget>
-     {/* < ProductCard></ProductCard>*/}
+    <FavoriteWidget></FavoriteWidget>
+    {/* < ProductCard></ProductCard>*/}
      <ProductWidget />
      </HomeLayout>
 
