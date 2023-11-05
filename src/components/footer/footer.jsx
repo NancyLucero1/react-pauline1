@@ -7,15 +7,17 @@ import { SocialMediaStyled, ContacUsStyled } from './styles';
 import  london from "../../assets/image/london.png"
 import  argentina from "../../assets/image/argentina.png"
 import { TitleH3 } from './styles';
+import { Sign } from './styles';
+import { FooterMenu } from './styles';
+
+
 
 export const Footer = () => {
   return (
     <FooterContainerStyled>
 
       <LinksContainerStyled >
-      <a href="/#"> Term & Conditions</a>
      
-      <a href="/#">Newsletter </a>
 
       
 
@@ -37,24 +39,24 @@ export const Footer = () => {
             <FaPinterest/>
             <FaInstagram/>
             <FaEnvelope/>
-          
+           
+      
       </SocialMediaStyled>
       
-
-
-  
+       
+      <TitleH3> <h3>Footer Menu</h3></TitleH3>
+      <FooterMenu>
+      <a href="/#"> Term & Conditions</a>
+     
+     <a href="/#">Newsletter </a>
+     <a href="/#">Polity Privacy </a>
+     <a href="/#">Preference Cookies </a>
+     </FooterMenu>
       
-
-      <p> Designed in < FaRegHeart/> by Nancy </p>
-<p> Copyright © 2023- All  rights reserved</p>
-      <div>
-      <img src={london} />
-      <img src={argentina} />
-   
-    
-
-      </div>
-      
+     <Sign>
+      <p> Designed in < FaRegHeart/> by Nancy Lucero </p>
+      <p> Copyright © 2023- All  rights reserved</p>
+      </Sign>
       </FooterContainerStyled>
   );
 };

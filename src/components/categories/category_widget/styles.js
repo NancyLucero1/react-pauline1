@@ -7,7 +7,7 @@ export const CardCategoria = styled(motion.div) `
 display: flex;
 justify-content: center;
 align-items: center;
-gap:0.3rem;
+gap:0.5rem;
 width: 120px;
 padding: 0.5 0.5rem;
 background-color: #A3976D;

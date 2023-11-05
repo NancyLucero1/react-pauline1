@@ -2,7 +2,7 @@ import React from 'react'
 import {favorite} from '../../../data/favorite'
 import { FavoriteCard } from '../favorite_card/favorite_card'
 import { FavoriteContainer, FavoriteWrapper } from './styles';
-
+import { Button } from '../../button/button';
 
 
 export const FavoriteWidget = () => {
@@ -18,7 +18,10 @@ export const FavoriteWidget = () => {
 
         }
      </FavoriteContainer>
-
+     <div>
+    <Button>Show more</Button>
+  
+   </div>
    
    
     </FavoriteWrapper>
