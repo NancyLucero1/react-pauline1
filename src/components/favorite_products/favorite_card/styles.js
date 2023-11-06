@@ -26,7 +26,10 @@ h2{
 font-weight:400;
 margin:0;
 
+
 }
+
+
 p{
 
 color:#3E371B;

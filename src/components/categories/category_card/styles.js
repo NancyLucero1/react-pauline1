@@ -3,12 +3,12 @@ import{motion} from "framer-motion";
 
 export const CategoriasWrapper = styled.div`
 
-display: flex;
 justify-content:center;
 align-items:center;
 flex-direction:column;
 max-width:1300px;
 margin:  20px auto;
+display: flex;
 
 
 @media (max-width: 768px) {
@@ -18,6 +18,13 @@ margin:  20px auto;
      justify-content:center;
 
 }
+
+ h3{
+
+    color:#3E371B;
+    font-size:35px;
+}
+
 
 `
 

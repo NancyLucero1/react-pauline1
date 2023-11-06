@@ -8,8 +8,10 @@ import { Button } from '../../button/button';
 export const FavoriteWidget = () => {
   return (
     <FavoriteWrapper>
-     <h2>What are your favorite  cakes?</h2>
+    
+     <h3>What are your favorite  cakes? </h3>
      <h3>Here are some of the most popular cake flavors:</h3>
+    
      <FavoriteContainer>
 
         {
@@ -18,10 +20,10 @@ export const FavoriteWidget = () => {
 
         }
      </FavoriteContainer>
-     <div>
-    <Button>Show more</Button>
+    
+    <Button>Go To Store</Button>
   
-   </div>
+
    
    
     </FavoriteWrapper>

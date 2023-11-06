@@ -10,6 +10,13 @@ align-items:center;
 flex-direction:column;
 max-width:1300px;
 margin:  15px auto;
+background:white-space;
+
+h3{
+
+    color:#3E371B;
+    font-size:35px;
+}
 
 @media (max-width: 768px) {
 

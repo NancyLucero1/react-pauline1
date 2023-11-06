@@ -10,7 +10,7 @@ import{FaAngleDoubleLeft, FaAngleDoubleRight} from 'react-icons/fa';
 export const ProductWidget = () => {
   return (
     <ProductosWrapper>
-     <h2> Products Gallery</h2>
+     <h3> Products Gallery</h3>
      <ProductosContainer>
 
         {
